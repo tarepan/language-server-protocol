@@ -1,0 +1,51 @@
+* initialize
+* initialized
+* shutdown
+* exit
++ window
+  * window/showMessage
+  * window/showMessageRequest
+  * window/logMessage
+* telemetry/event
++ client
+  * client/registerCapability
+  * client/unregisterCapability
++ workspace
+  * <div style="color: #4c90ff">workspace/workspaceFolders</div>
+  * workspace/didChangeWorkspaceFolders
+  * workspace/didChangeConfiguration
+  * workspace/configuration
+  * workspace/symbol
+  * workspace/didChangeWatchedFiles
+  * workspace/executeCommand
+  * ***workspace/applyEdit***
+* textDocument/didOpen
+* textDocument/didChange
+* textDocument/willSave
+* textDocument/willSaveWaitUntil
+* textDocument/didSave
+* textDocument/didClose
+* textDocument/publishDiagnostics
+* textDocument/completion
+* completionItem/resolve
+* textDocument/hover
+* textDocument/signatureHelp
+* textDocument/definition
+* textDocument/typeDefinition
+* textDocument/implementation
+* textDocument/references
+* textDocument/documentHighlight
+* textDocument/documentSymbol
+* textDocument/codeAction
+* textDocument/codeLens
+* codeLens/resolve
+* textDocument/documentLink
+* documentLink/resolve
+* textDocument/documentColor
+* textDocument/colorPresentation
+* textDocument/formatting
+* textDocument/rangeFormatting
+* textDocument/onTypeFormatting
+* textDocument/rename
+* textDocument/prepareRename
+* textDocument/foldingRange
