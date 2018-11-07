@@ -11,7 +11,7 @@
   * client/registerCapability
   * client/unregisterCapability
 + workspace
-  * <div style="color: #4c90ff">workspace/workspaceFolders</div>
+  * workspace/workspaceFolders
   * workspace/didChangeWorkspaceFolders
   * workspace/didChangeConfiguration
   * workspace/configuration
